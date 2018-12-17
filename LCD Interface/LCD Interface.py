@@ -9,7 +9,8 @@ LCD_D4 = 25
 LCD_D5 = 24
 LCD_D6 = 23
 LCD_D7 = 18
- 
+#ground the RW pin even if not in use
+
 # Define some device constants
 LCD_WIDTH = 16    # Maximum characters per line
 LCD_CHR = True
